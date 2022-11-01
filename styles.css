@@ -1,0 +1,74 @@
+body {
+    font-family: helvetica, verdana, sans-serif;
+    background-color: rgb(15 15 15);
+    color: #cccccc;
+    text-align: center;
+}
+p {
+font-size: 2.5vmax;
+}
+
+/* required */
+#title {  
+margin: 2%;
+width: 94%;
+border-radius: 10px;
+background-color: #222222;
+text-align: center;
+}
+#title h1 {
+font-size: 7vmax;
+padding: 0.4em;
+margin-bottom: -4vmax;
+}
+#title p {
+padding: 1em;
+}
+#img-div { 
+text-align: center;
+width: 40%;
+height: 48vmax;
+display: block;
+margin: auto;
+padding: 3vmax;
+padding-bottom: 6vmin;
+width: 50%;
+background-color: #222222;
+border-radius: 10px;
+max-width: 365px;
+max-height: 395px;
+}
+#image {
+width: 99%;
+max-width: 365px;
+display: block;
+}
+#img-div #img-caption {  
+background-color: #eeeeee;
+color: #252525;
+margin: auto;
+width: 100%;
+max-width: 365px;
+padding: 1.5% 0 1.5% 0;
+font-size: 2vmax;
+}
+#tribute-info {
+background-color: #313131;
+display:block;
+padding: 15px 5% 15px 5%;
+margin: 30px;
+border-radius: 10px;
+}
+#tribute-link{
+color: #cccccc;
+display: block;
+margin: 4% 0 6% 0;
+font-size: 2.5vmax;
+}
+
+@media (max-width: 100vh) {
+#img-div { 
+height: 48vmin;
+padding-bottom: 5vmax;
+}
+}
